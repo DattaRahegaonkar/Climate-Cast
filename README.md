@@ -14,10 +14,10 @@ The app features a clean and responsive design, making it easy to check weather 
 
 # Technologies Used
 
-HTML
-CSS
-JavaScript
-Weather API ( In this project am using OpenWeatherMap API)
+- HTML
+- CSS
+- JavaScript
+- Weather API ( In this project am using OpenWeatherMap API)
 
 
 # About Files
