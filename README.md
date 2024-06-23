@@ -22,11 +22,11 @@ The app features a clean and responsive design, making it easy to check weather 
 
 # About Files
 
-# HTML (index.html)
+- HTML (index.html)
 The HTML file contains the structure of the web application, including the search bar and placeholders for displaying weather data.
 
-# CSS (styles.css)
+- CSS (styles.css)
 The CSS file is used for styling the application, making it visually appealing and responsive.
 
-# JavaScript (app.js)
+- JavaScript (app.js)
 The JavaScript file contains the logic for fetching data from the weather API and updating the UI with the fetched weather information.
