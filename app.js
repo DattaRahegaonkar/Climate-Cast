@@ -1,7 +1,7 @@
 
 
 
-let url = "http://api.weatherapi.com/v1/current.json?key=d0f143115c3546d095590925242206&q=";
+let url = "https://api.weatherapi.com/v1/current.json?key=d0f143115c3546d095590925242206&q=";
 
 let searchInput = document.querySelector("input");
 let searchBtn = document.querySelector("button");

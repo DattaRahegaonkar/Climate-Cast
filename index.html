@@ -1,61 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Weather App</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="heading">
-        <h1>Climate Cast</h1>
+      <h1>Climate Cast</h1>
     </div>
 
     <div class="container">
+      <div class="search-bar">
+        <input placeholder="Enter city" />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
 
-        <div class="search-bar">
-            <input placeholder="Enter city"/>
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      <div class="error">
+        <h4>Invalid City Name</h4>
+      </div>
+
+      <div class="weather">
+        <img class="weather-icon" src="Weather Images/rain.png" />
+        <h1 class="temp">38°c</h1>
+        <h2 class="cityName">pune</h2>
+        <h4 class="region">maharashtra</h4>
+
+        <div class="details">
+          <div class="details-part">
+            <img class="humidity-wind-imgs" src="Weather Images/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>humidity</p>
+            </div>
+          </div>
+
+          <div class="details-part">
+            <img class="humidity-wind-imgs" src="Weather Images/wind.png" />
+            <div>
+              <p class="wind">km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
         </div>
-
-        <div class="error">
-            <h4>Invalid City Name</h4>
-        </div>
-
-        <div class="weather">
-
-            <img class="weather-icon" src="Weather Images/rain.png"/>
-             <h1 class="temp">38°c</h1>
-             <h2 class="cityName">pune</h2>
-             <h4 class="region">maharashtra</h4>
-
-             <div class="details">
-
-                <div class="details-part">
-                    <img class="humidity-wind-imgs" src="Weather Images/humidity.png">
-                    <div>
-                        <p class="humidity">50%</p>
-                        <p>humidity</p>
-                    </div>
-                </div>
-
-                <div class="details-part">
-                    <img class="humidity-wind-imgs" src="Weather Images/wind.png">
-                    <div>
-                        <p class="wind">km/h</p>
-                        <p>Wind Speed</p>
-                    </div>
-                </div>
-
-             </div>
-        </div>
+      </div>
     </div>
 
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
