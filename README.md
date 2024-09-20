@@ -32,6 +32,6 @@ The CSS file is used for styling the application, making it visually appealing a
 The JavaScript file contains the logic for fetching data from the weather API and updating the UI with the fetched weather information.
 
 
-#
+# Overview
 
 - This weather web app project is a demonstration of my skills in HTML, CSS, and JavaScript, and my interest in integrating APIs to enhance user experiences.
