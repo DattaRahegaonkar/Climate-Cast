@@ -1,7 +1,7 @@
 # Climate-Cast
 
 Climate-Cast is a web application that provides current weather information and forecasts for any location using the OpenWeatherMap API.
-This application is built with HTML, CSS, and JavaScript.
+This application is built using REACT.
 The app features a clean and responsive design, making it easy to check weather conditions on both desktop, mobile devices and any other devices.
 
 ## Features
