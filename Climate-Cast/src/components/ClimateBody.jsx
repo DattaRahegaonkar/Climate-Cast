@@ -79,22 +79,14 @@ const ClimateBody = () => {
       {weatherData && (
         <div className="flex justify-center items-center mt-15">
           <div className="flex justify-center items-center mr-8">
-            <img
-              className="mr-2 w-12"
-              src={humidityIcon}
-              alt="Humidity Icon"
-            />
+            <img className="mr-2 w-12" src={humidityIcon} alt="Humidity Icon" />
             <div>
               <h1>{weatherData.current.humidity}%</h1>
               <p>Humidity</p>
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <img
-              className="mr-2 w-12"
-              src={windIcon}
-              alt="Wind Icon"
-            />
+            <img className="mr-2 w-12" src={windIcon} alt="Wind Icon" />
             <div>
               <h1>{weatherData.current.wind_kph} Km/h</h1>
               <p>Wind</p>
