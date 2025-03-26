@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import humidityIcon from "../assets/humidity.png";
+import windIcon from "../assets/wind.png";
 
 const ClimateBody = () => {
   const [city, setCity] = useState("");
@@ -79,7 +81,7 @@ const ClimateBody = () => {
           <div className="flex justify-center items-center mr-8">
             <img
               className="mr-2 w-12"
-              src="/src/assets/humidity.png"
+              src={humidityIcon}
               alt="Humidity Icon"
             />
             <div>
@@ -90,7 +92,7 @@ const ClimateBody = () => {
           <div className="flex justify-center items-center">
             <img
               className="mr-2 w-12"
-              src="/src/assets/wind.png"
+              src={windIcon}
               alt="Wind Icon"
             />
             <div>
