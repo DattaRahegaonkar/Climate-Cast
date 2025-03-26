@@ -1,28 +1,3 @@
-# Climate-Cast
-
-Climate-Cast is a web application that provides current weather information and forecasts for any location using the OpenWeatherMap API.
-This application is built using REACT.
-The app features a clean and responsive design, making it easy to check weather conditions on both desktop, mobile devices and any other devices.
-
-## Features
-
-- Current weather conditions (temperature, humidity, wind speed, etc.)
-- Interactive weather map
-- Search functionality for different locations
-- Responsive design for mobile and desktop users
-- cloud icon changes according to the weather
-
-# Technologies Used
-
-- Vite
-- React
-- Weather API ( In this project am using OpenWeatherMap API)
-
-# Overview
-
-- This weather web app project is a demonstration of my skills in REACT, and my interest in integrating APIs to enhance user experiences.
-
-
 # 🌤 Climate-Cast
 
 Climate-Cast is a web application that provides current weather information and forecasts for any location using the **OpenWeatherMap API**. This application is built using **React and Vite**. The app features a clean and responsive design, making it easy to check weather conditions on desktop, mobile, and other devices.
