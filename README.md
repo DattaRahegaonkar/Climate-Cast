@@ -11,7 +11,7 @@ Climate-Cast is a web application that provides current weather information and 
 ## 🛠 Technologies Used
 - **Frontend:** React, Vite, Tailwind CSS
 - **API:** [OpenWeatherMap API](https://openweathermap.org/api)
-- **Deployment:** Onrender
+- **Deployment:** Vercel
 
 # React + Vite
 
@@ -51,9 +51,8 @@ If you are developing a production application, we recommend using TypeScript an
    ```
 
 ## 🚀 Deployment
-To deploy on **Render**, follow their official documentation:  
-🔗 **Render Deployment Guide:** [https://render.com/docs/deploy-a-react-app](https://render.com/docs/deploy-a-react-app)
-
+To deploy on **Vercel**, follow their official documentation:  
+🔗 **Vercel Deployment Guide:** [https://vercel.com/docs/concepts/deployments/overview](https://vercel.com/docs/concepts/deployments/overview)
 
 ## 📌 Overview
-This project demonstrates my expertise in React and my ability to integrate third-party APIs like OpenWeatherMap. It showcases my frontend development skills, including responsive UI design and dynamic data fetching, to enhance user experience. The application is deployed on Render for seamless hosting and accessibility.
+This project demonstrates my expertise in React and my ability to integrate third-party APIs like OpenWeatherMap. It showcases my frontend development skills, including responsive UI design and dynamic data fetching, to enhance user experience. The application is deployed on Vercel for seamless hosting and accessibility.
