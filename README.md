@@ -14,9 +14,8 @@ The app features a clean and responsive design, making it easy to check weather 
 
 # Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- Vite
+- React
 - Weather API ( In this project am using OpenWeatherMap API)
 
 
@@ -34,4 +33,4 @@ The JavaScript file contains the logic for fetching data from the weather API an
 
 # Overview
 
-- This weather web app project is a demonstration of my skills in HTML, CSS, and JavaScript, and my interest in integrating APIs to enhance user experiences.
+- This weather web app project is a demonstration of my skills in REACT, and my interest in integrating APIs to enhance user experiences.

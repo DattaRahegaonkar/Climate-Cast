@@ -34,8 +34,6 @@ const ClimateBody = () => {
     fetchWeather();
   };
 
-  console.log(weatherData);
-
   return (
     <div className="m-1 3xl:w-[100%] flex justify-center flex-col items-center bg-gradient-to-b from-[#00feba] to-[#5b548a] p-6 rounded-2xl">
       <form onSubmit={handleSubmit}>
