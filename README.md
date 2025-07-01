@@ -114,6 +114,5 @@ kubectl apply -f .  (at time run all)
 
 # OutPut
 
-![image](https://github.com/DattaRahegaonkar/Climate-Cast/blob/a0f1e1e11450efcf57424c8a579b5077adf208ca/Screenshot%202024-09-21%20002318.png)
 ![image](https://github.com/DattaRahegaonkar/Climate-Cast/blob/a0f1e1e11450efcf57424c8a579b5077adf208ca/Screenshot%202024-09-21%20002337.png)
 ![image](https://github.com/DattaRahegaonkar/Climate-Cast/blob/a0f1e1e11450efcf57424c8a579b5077adf208ca/Screenshot%202024-09-21%20002518.png)
