@@ -117,4 +117,9 @@ kubectl apply -f .  (at time run all)
 ![image](https://github.com/DattaRahegaonkar/Climate-Cast/blob/a0f1e1e11450efcf57424c8a579b5077adf208ca/Screenshot%202024-09-21%20002337.png)
 ![image](https://github.com/DattaRahegaonkar/Climate-Cast/blob/a0f1e1e11450efcf57424c8a579b5077adf208ca/Screenshot%202024-09-21%20002518.png)
 
-Created by [Datta Rahegaonkar](https://github.com/DattaRahegaonkar?tab=repositories)
+# Author
+Crafted by  
+**Datta Rahegaonkar**  
+DevOps Enthusiast
+
+[GitHub](https://github.com/DattaRahegaonkar?tab=repositories) 
