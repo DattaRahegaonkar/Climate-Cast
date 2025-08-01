@@ -1,3 +1,5 @@
+.PHONY: build run clean up down
+
 DOCKER_COMPOSE := docker-compose
 
 OS := $(shell uname)
@@ -20,3 +22,6 @@ up:
 
 down:
 	 $(DOCKER_COMPOSE) down
+
+clean:
+	sudo rm -rf ../Climate-Cast
