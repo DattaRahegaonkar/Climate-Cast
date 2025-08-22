@@ -8,26 +8,16 @@ export default defineConfig({
   preview: {
     host: true,
     port: process.env.PORT || 4173,
-    strictPort: true,
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
-      'Access-Control-Allow-Headers': 'X-Requested-With, content-type, Authorization'
-    }
+    allowedHosts: ["climate-cast.onrender.com"], // required for Render
   },
   server: {
     host: true,
-    strictPort: true,
     port: 5173,
-    hmr: {
-      clientPort: 443,
-      protocol: 'wss',
-    },
-    cors: true
   },
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    emptyOutDir: true
+    emptyOutDir: true,
   }
 })
+
